@@ -2,10 +2,11 @@
 
 body{
     font-family: roboto;
+    margin: 0;
 }
 
 .container {
-    padding:0 calc((100% - 800px)/2);
+    padding:0 calc((100% - 1200px)/2);
 }
 
 .header, .hero, .footer {
@@ -15,6 +16,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.hero{
+    min-height: 80vh;
 }
 
 .navigation a{
@@ -29,9 +34,6 @@ body{
 .logo {
     padding:20px 0;
     height: 30px;
-}
-.hero{
-
 }
 
 .content, .info-box{
@@ -80,11 +82,16 @@ padding: 40px;
     color: aliceblue;
     display: flex;
     justify-content: center;
-    gap: 24px;
-    align-items: center;
-    margin: 48px 10%;
-    padding: 40px;
+    gap: 32px;
+    align-items: center;    padding: 40px;
     border-radius: 1em;
+}
+
+.call-to-action-wrapper {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .call-to-action h4, .call-to-action p{
@@ -93,7 +100,10 @@ padding: 40px;
 }
 
 button{
-    background-color: aliceblue ;
+    background-color: cornflowerblue ;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
     padding: 10px 20px ;
     border-radius: 8px;
@@ -102,9 +112,6 @@ button{
 .btn-outline {
     background-color: transparent;
     border: aliceblue 2px solid;
-    color: aliceblue;
-    font-size: 16px;
-    font-weight: 600;
 }
 .footer{
     justify-content: center;

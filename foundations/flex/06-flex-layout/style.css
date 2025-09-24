@@ -58,6 +58,6 @@ a {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  flex: 1;
+  flex-grow: 1;
 
 }
