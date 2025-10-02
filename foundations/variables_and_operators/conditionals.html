@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <script>
+    // exercises from https://javascript.info/ifelse 
+    'use strict';
+    
+    // Test 01
+/*  let name = prompt('What is the “official” name of JavaScript?', '');
+    if (name == `ECMAScript`) {
+        alert(`That's Right!`);
+    } else {
+        alert(`You don’t know? ECMAScript!`);
+    } */
+
+    // Test 02
+/*  let number = prompt (`enter a number`, ` `);
+    if (number > 0) {
+        alert (`1`);
+    }  else if (number == 0) {
+        alert (`0`);
+    }  else {
+        alert (`-1`);
+    } */
+
+    // Test 03
+
+/*     let result = (a + b < 4) ? `Below` : `Over`;
+ */
+    // Test 04
+
+/*     let message = (login == `Employee`) ? `Hello` :
+        (login == `Director`) ? `Greetings`:
+        (login == ` `) ? `No login`:
+        ``; */
+        
+    // Exercises from https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Conditionals
+
+    //#Conditionals 1
+/*     let season = `winter`;
+    let response;
+
+    if (season == `summer`){
+    response = `Happy Summer!`;
+    } else if (season == `winter`){
+    response = `Happy Winter!`;
+    } else {
+    response = `Can't wait for the summer!`;
+    } */
+
+    //#Conditional 2
+/*         let response;
+        let score = 60;
+        let machineActive = 1;
+
+        // Add your code here
+        if (machineActive === false) {
+            response = `Turn the machine on!`;
+        } else {
+            response = (score < 0 || score > 100) ? `That's not possible.` :
+                (score >= 0 && score < 20) ? `That was a terrible score — total fail!` :
+                    (score >= 20 && score < 40) ? `You know some things, but it's a pretty bad score. Needs improvement.` :
+                        (score >= 40 && score < 70) ? `You did a passable job, not bad!` :
+                            `What an amazing score! Did you cheat? Are you for real?`;
+        } */
+
+    // #Conditional 3
+/*     let machineActive = true;
+let pwd = "cheese";
+
+let machineResult;
+let pwdResult;
+
+if (machineActive = false){
+  machineResult = `Turn the Machine On !`;
+} else {
+  pwdResult = (pwd == `cheese`) ? `Welcome`:
+    `Wrong Password`;
+}
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+para1.textContent = machineResult;
+para2.textContent = pwdResult;
+section.appendChild(para1);
+section.appendChild(para2); */
+
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+para1.textContent = response;
+section.appendChild(para1);
+
+
+    const section = document.querySelector("section");
+    const para1 = document.createElement("p");
+    para1.textContent = response;
+    section.appendChild(para1);
+
+  </script>
+
+
+</body>
+
+</html>
